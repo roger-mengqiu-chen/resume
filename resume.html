@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume</title>
+</head>
+<style>
+  li {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: small;
+  }
+
+  .body {
+    font-family: sans-serif;
+    font-size: small;
+  }
+
+  .head {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .title {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .name {
+    margin: 0;
+  }
+
+  .job {
+    margin-left: 10px;
+    margin-bottom: 3px;
+  }
+
+  .main {
+    display: flex;
+    font-family: sans-serif;
+  }
+
+  .focus {
+    flex: 2;
+    padding-right: 10px;
+  }
+
+  .side {
+    flex: 1;
+    padding-left: 10px;
+  }
+
+</style>
+<body>
+  <div class="body">
+    <div class="head">
+      <div class="brief">
+        <div class="title">
+          <h1 class="name">Roger Chen</h1>
+          <h3 class="job">Software developer</h3>
+        </div>
+        <p>rogermchen.ubc@gmail.com | 403-890-6860 | Calgary, AB, Canada</p>
+      </div>
+    </div>
+    
+      <div class="main">
+      <div class="card focus">
+        <h2>Experience</h2>
+        <h3>2022 Sep - Present: Software Developer, DataDrill Communications, Calgary, Canada</h3>
+        <ul>
+          <li>Improved the performance of several existing REST APIs up to 5 times.</li>
+          <li>Speeded up loading time up to 10 times for a Django admin section with over 4 million records.</li>
+          <li>Developed inventory report applications with Nextjs, Pandas and Power BI.</li>
+          <li>Designed and implemented an event driven system with MQTT to control RF sensors, motor and GPIOs on Raspberry Pi.</li>
+          <li>Simplified a web server application with Flask and reduced the startup time from 30 seconds to 2 seconds.</li>
+          <li>Provided software solution to automate other departments' processes</li>
+          <li>Database design and administration with MySQL.</li>
+          <li>Deployed applications with Microsoft Azure Cloud App services, Windows IIS, GitHub Actions and Docker containers.</li>
+        </ul>
+
+        <h3>2022 Jul - Sep: Volunteer Backend Developer, 65SQuare, remote</h3>
+        <ul>
+          <li>Reviewed the design documents and provided feedback</li>
+          <li>Tested usability of existing APIs and applications</li>
+          <li>Assisted deploying applications with Docker containers</li>
+        </ul>
+        <hr/>
+        <h2>Projects</h2>
+        <b>Django Life tracker</b>&nbsp;<a href="https://github.com/roger-mengqiu-chen/life">https://github.com/roger-mengqiu-chen/life</a>
+        <ul>
+          <li>Tracking daily expenses with Python Django admin page</li>
+          <li>Importing/exporting expenses</li>
+          <li>Determining expenses types based on merchants</li>
+          <li>Displaying financial charts dynamically</li>
+        </ul>
+        <b>Static blog site with Firebase</b>&nbsp;<a href="https://rogerchen.ca">https://rogerchen.ca</a>
+        <ul>
+          <li>Rendering markdown files in Nextjs and build into a static site.</li>
+          <li>Front end with MUI</li>
+          <li>Deployed with Firebase hosting</li>
+        </ul>
+        <b>IPv4 Auto subnetting</b>&nbsp;<a href="https://github.com/roger-mengqiu-chen/ipv4subnetting">https://github.com/roger-mengqiu-chen/ipv4subnetting</a>
+        <ul>
+          <li>The program allocates IPv4 subnets based on requirements</li>
+          <li>Built REST APIs with Java Spring Boot</li>
+          <li>Front end with Bootstrap and JQuery</li>
+          <li>Deployed with Heroku</li>
+        </ul>
+      </div>
+
+      <div class="card side">
+        <h2>Skills</h2>
+        <ul>
+          <li>Event driven programming</li>
+          <li>Test driven development</li>
+          <li>Object oriented programming</li>
+          <li>RESTful API design and implementation</li>
+          <li>GraphQL</li>
+          <li>Azure governance and security</li>
+          <li>Data analysis with Pandas and Power BI</li>
+          <li>Database design and administration with MySQL</li>
+          <li>Python, SQL, Java, JavaScript, TypeScript</li>
+          <li>Web development with Django, Flask, Next.js and Spring Boot</li>
+          <li>CI/CD with Docker, Git and GitHub Actions</li>
+          <li>Linux, Windows and MacOS</li>
+          <li>Agile methodology</li>
+          <li>Clean code and SOLID</li>
+        </ul>
+        <hr/>
+        <h2>Rewards</h2>
+        <ul>
+          <li>2021: Jason Lang Scholarship, Southern Alberta Institution of Technology</li>
+        </ul>
+        <hr/>
+        <h2>Education</h2>
+        <ul>
+          <li>2020 - 2022: Diploma of Information Technology, Southern Alberta Institution of Technology</li>
+          <li>2012 - 2015: Bachelor of Science, University of British Columbia</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
